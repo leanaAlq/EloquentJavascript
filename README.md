@@ -1,2 +1,2 @@
 # EloquentJavascript
-My Solutions to the exercises in Eloquent Javascript book.
+My Solutions to the exercises in Eloquent Javascript.
