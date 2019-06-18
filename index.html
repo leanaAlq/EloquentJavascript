@@ -4,25 +4,130 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
     <h1>Eloquent Javascript Exercises</h1>
-    <h2>Chapter 1</h2>
+    <h2>Chapter 2: Program Structure</h2>
 
+    <div>
+      <ul>
+        <li>
+          <h3>Looping a triangle</h3>
+          <div id="ch2e1"></div>
+        </li>
+        <li>
+          <h3>FIZZBUZZ</h3>
+          <p>
+            Q:
+            <q
+              >Write a program that print all the numbers from 1 to 100, with
+              two exceptions. For numbers divisible by 3, print "Fizz" instead
+              of the number, and for numbers divisible by 5 (and not 3), print
+              "Buzz" instead. When you have that working, modify your program to
+              print "FizzBuzz" for numbers that are divisible by both 3 and 5
+              (and still print "Fizz" or "Buzz" for numbers divisible by only
+              one of those).
+            </q>
+          </p>
+          <div id="ch2e2"></div>
+        </li>
+        <li>
+          <h3>Chessboard</h3>
+          <div id="ch2e3">
+            <p>Find Me in the console.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <h2>Chapter 3: Functions</h2>
     <ul>
       <li>
-        <h3>Looping a triangle</h3>
-        <div id="ch2e1"></div>
+        <div id="min-container">
+          <h3>Minimum</h3>
+          <p>Enter two numbers to get their minimum</p>
+
+          <label for="num1">First Number</label>
+          <input type="text" id="num1" />
+          <label for="num2">Second Number</label>
+          <input type="text" id="num2" />
+          <button id="min">Get minimum</button>
+        </div>
       </li>
       <li>
-        <h3>FIZZBUZZ</h3>
-        <div id="ch2e2"></div>
+        <h3>Recursion</h3>
+        <div id="recursion">
+          <p>
+            Give me a number and I will tell you if it's even.
+          </p>
+          <label for="num">Your Number</label>
+          <input type="text" id="num" />
+          <button id="isEven">Let's see!</button>
+        </div>
       </li>
       <li>
-        <h3>Chessboard</h3>
-        <div id="ch2e3"></div>
+        <h3>Bean Counting</h3>
+        
+          <ul>
+            <li>
+              <div id="beanCounting"></div>
+              <p>
+                Write a word and I will count the occurences of letter B
+                (Capitalized, This is what Marjin wants, don't ask me why ಠ_ಠ)
+              </p>
+              <label for="word">Your Word/Words</label>
+              <input type="text" id="word" />
+              <button id="Bcount">Count!</button>
+              </div>
+            </li>
+
+            <li>
+              <div id="beanCountingOne">
+                <p>
+                  Write a word and I will count the occurences of a letter of your
+                  choice
+                </p>
+                <select>
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+                  <option value="D">D</option>
+                  <option value="E">E</option>
+                  <option value="F">F</option>
+                  <option value="G">G</option>
+                  <option value="H">H</option>
+                  <option value="I">I</option>
+                  <option value="J">J</option>
+                  <option value="K">K</option>
+                  <option value="L">L</option>
+                  <option value="M">M</option>
+                  <option value="N">N</option>
+                  <option value="O">O</option>
+                  <option value="P">P</option>
+                  <option value="Q">Q</option>
+                  <option value="R">R</option>
+                  <option value="S">S</option>
+                  <option value="T">T</option>
+                  <option value="U">U</option>
+                  <option value="V">V</option>
+                  <option value="W">W</option>
+                  <option value="X">X</option>
+                  <option value="Y">Y</option>
+                  <option value="Z">Z</option>
+                </select>
+                <label for="word">Your Word/Words</label>
+                <input type="text" id="wordTwo" />
+                <button id="Bcount">Count!</button>
+              </div>
+            </li>
+          </ul>
+       
+       
       </li>
     </ul>
 
